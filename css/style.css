@@ -1,0 +1,141 @@
+/* Fullscreen setup */
+html, body {
+    /* give this to all tags from html to .fullscreen */
+    height:100%;
+}
+.fullscreen,
+.content-a {
+    width:100%;
+    min-height:100%;
+}
+.not-fullscreen,
+.not-fullscreen .content-a,
+.fullscreen.not-overflow,
+.fullscreen.not-overflow .content-a {
+    height:100%;
+    overflow:hidden;
+}
+
+/* content centering styles */
+.content-a {
+    display:table;
+}
+.content-b {
+    display:table-cell;
+    position:relative;
+    vertical-align:middle;
+    text-align:center;
+
+}
+/* background setup */
+.background {
+
+    background-repeat:no-repeat;
+    /* custom background-position */
+    background-position:50% 50%;
+    /* ie8- graceful degradation */
+    background-position:50% 50%\9 !important;
+}
+
+.fullwidth {
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: initial;
+}
+/* Typography */
+
+h1 {
+  font-family: 'Lora', serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 150px;
+  color: #4BF6B7;
+}
+
+h2 {
+  font-family: 'Droid Sans Mono', helvetica, sans-serif;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  color: #fff;
+}
+
+h3 {
+  font-family: 'Droid Sans Mono', helvetica, sans-serif;
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  color: #fff;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+a {
+  color: #fff !important;
+  font-weight: 200;
+}
+
+.apply {
+  margin-top: 50px;
+}
+
+.outline {
+  border-radius: 100px;
+  border: solid 1px #fff;
+  background-color: rgba(255, 255, 255, 0.0);
+  padding-top: 8px;
+  padding-bottom: 8px;
+
+}
+
+.outline:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Sections */
+
+.hero {
+  background: url('../img/bg-2.jpg') center center;
+  background-size: cover;
+  position: center;
+  background-repeat: no-repeat;
+}
+
+.item {
+  background: #242424;
+  height: 100px;
+  padding-top: 42px;
+  border: 1px solid white;
+}
+
+.speakers {
+  background: #242424;
+
+}
+
+.mission {
+  background: #242424;
+
+}
+
+
+.venue {
+  background: #242424;
+
+
+}
+
+.faq {
+  background: #242424;
+
+
+}
+
+.sponsors {
+  background: #242424;
+
+
+}
