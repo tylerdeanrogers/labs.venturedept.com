@@ -50,27 +50,43 @@ h1 {
   font-weight: 700;
   font-style: italic;
   font-size: 150px;
-  color: #4BF6B7;
+  color: #fff;
 }
 
 h2 {
   font-family: 'Droid Sans Mono', helvetica, sans-serif;
-  font-size: 10px;
+  font-size: 20px;
   text-transform: uppercase;
   letter-spacing: 15px;
-  color: #fff;
+  color: #e4dad0;
 }
 
 h3 {
   font-family: 'Droid Sans Mono', helvetica, sans-serif;
-  font-size: 9px;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #e4dad0;
+}
+
+h3 span {
+  font-size: 10px;
+  letter-spacing: 8px;
+  color: #a44e56 ;
+}
+
+h4 {
+  font-family: 'Droid Sans Mono', helvetica, sans-serif;
+  font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 8px;
   color: #fff;
 }
 
 p {
-  margin-bottom: 0;
+  font-family: 'Droid Sans Mono', helvetica, sans-serif;
+  font-size: 10px;
+  color: #fff;
 }
 
 a {
@@ -83,7 +99,7 @@ a {
 }
 
 .outline {
-  border-radius: 100px;
+  border-radius: 70px;
   border: solid 1px #fff;
   background-color: rgba(255, 255, 255, 0.0);
   padding-top: 8px;
@@ -95,10 +111,16 @@ a {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
+.headline {
+  height: 100px;
+  background-color: #354960;
+  padding-top: 30px;
+}
+
 /* Sections */
 
 .hero {
-  background: url('../img/bg-2.jpg') center center;
+  background: url('../img/bg-8.jpg') center center;
   background-size: cover;
   position: center;
   background-repeat: no-repeat;
@@ -106,36 +128,24 @@ a {
 
 .item {
   background: #242424;
-  height: 100px;
+  height: 300px;
   padding-top: 42px;
-  border: 1px solid white;
 }
 
 .speakers {
   background: #242424;
-
+  height: 300px;
+  border: 1px solid white;
 }
 
-.mission {
+.schedule {
   background: #242424;
+  padding: 3%;
+}
+.description {
+  margin-top: 50%;
+
 
 }
 
 
-.venue {
-  background: #242424;
-
-
-}
-
-.faq {
-  background: #242424;
-
-
-}
-
-.sponsors {
-  background: #242424;
-
-
-}
