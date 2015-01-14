@@ -59,6 +59,7 @@ h2 {
   text-transform: uppercase;
   letter-spacing: 15px;
   color: #e4dad0;
+  padding-bottom: 10px;
 }
 
 h3 {
@@ -66,7 +67,7 @@ h3 {
   font-size: 20px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #e4dad0;
+  color: #cac0b7;
 }
 
 h3 span {
@@ -86,9 +87,12 @@ h4 {
 p {
   font-family: 'Droid Sans Mono', helvetica, sans-serif;
   font-size: 10px;
-  color: #fff;
+  color: #242424;
 }
 
+p span {
+  opacity: 0.0;
+}
 a {
   font-family: 'Droid Sans Mono', helvetica, sans-serif;
   font-size: 12px;
@@ -116,14 +120,14 @@ a {
 
 .headline {
   height: 100px;
-  background-color: #354960;
+  background-color: #242424;
   padding-top: 30px;
 }
 
 /* Sections */
 
 .hero {
-  background: url('../img/bg-8.jpg') center center;
+  background: url('../img/bg-4.jpg') center center;
   background-size: cover;
   position: center;
   background-repeat: no-repeat;
@@ -137,18 +141,37 @@ a {
 
 .speakers {
   background: #242424;
-  height: 300px;
-  border: 1px solid white;
 }
 
 .schedule {
-  background: #242424;
+  background: #eee;
   padding: 3%;
 }
+
+.headline ::after {
+  background: #fff;
+  margin-left: 0.9375rem;
+  width: 50px;
+  height: 1px;
+}
+
 .description {
   margin-top: 50%;
 
-
 }
 
+.caption {
+  color: #fff;
+}
 
+.orbit-bullets {
+  display: none;
+}
+
+.orbit-timer {
+  display: none;
+}
+
+.orbit-slides-container img {
+  width: 100%;
+}
