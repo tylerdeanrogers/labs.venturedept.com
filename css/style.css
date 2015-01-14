@@ -3,39 +3,6 @@ html, body {
     /* give this to all tags from html to .fullscreen */
     height:100%;
 }
-.fullscreen,
-.content-a {
-    width:100%;
-    min-height:100%;
-}
-.not-fullscreen,
-.not-fullscreen .content-a,
-.fullscreen.not-overflow,
-.fullscreen.not-overflow .content-a {
-    height:100%;
-    overflow:hidden;
-}
-
-/* content centering styles */
-.content-a {
-    display:table;
-}
-.content-b {
-    display:table-cell;
-    position:relative;
-    vertical-align:middle;
-    text-align:center;
-
-}
-/* background setup */
-.background {
-
-    background-repeat:no-repeat;
-    /* custom background-position */
-    background-position:50% 50%;
-    /* ie8- graceful degradation */
-    background-position:50% 50%\9 !important;
-}
 
 .fullwidth {
    width: 100%;
@@ -43,6 +10,7 @@ html, body {
    margin-right: auto;
    max-width: initial;
 }
+
 /* Typography */
 
 h1 {
@@ -97,12 +65,24 @@ a {
 
 /* Sections */
 
-.hero {
-  background: url('../img/bg-2.jpg') center center;
-  background-size: cover;
-  position: center;
+.hero-left {
+  background: #666;
+  height: 300px;
   background-repeat: no-repeat;
 }
+
+.hero-right {
+  background: #999;
+  height: 300px;
+  background-repeat: no-repeat;
+}
+.hero-full {
+  background: #333;
+  height: 800px;
+  background-repeat: no-repeat;
+}
+
+
 
 .item {
   background: #242424;
@@ -110,6 +90,9 @@ a {
   padding-top: 42px;
   border: 1px solid white;
 }
+
+.item a:hover
+
 
 .speakers {
   background: #242424;
